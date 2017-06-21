@@ -9,11 +9,13 @@ package model;
 public class Example {
 
     /** The id. */
-    private final int id;
+    private final int colone_1;
 
     /** The name. */
-    private String    name;
+    private String    colone_2;
 
+    private String    colone_3;
+    
     /**
      * Instantiates a new example.
      *
@@ -22,10 +24,11 @@ public class Example {
      * @param name
      *            the name
      */
-    public Example(final int id, final String name) {
+    public Example(final int colone_1, final String colone_2, final String colone_3) {
         super();
-        this.id = id;
-        this.name = name;
+        this.colone_1 = colone_1;
+        this.colone_2 = colone_2;
+        this.colone_3 = colone_3;
     }
 
     /**
@@ -33,8 +36,8 @@ public class Example {
      *
      * @return the id
      */
-    public int getId() {
-        return this.id;
+    public int getcolone_1() {
+        return this.colone_1;
     }
 
     /**
@@ -42,19 +45,28 @@ public class Example {
      *
      * @return the name
      */
-    public String getName() {
-        return this.name;
+    public String getcolone_2() {
+        return this.colone_2;
     }
 
+    /**
+     * Gets the name.
+     *
+     * @return the name
+     */
+    public String getcolone_3() {
+        return this.colone_3;
+    }
+    
     /**
      * Sets the name.
      *
      * @param name
      *            the new name
      */
-    public void setName(final String name) {
-        this.name = name;
-    }
+   /* public void setcolone_2(final String colone_2) {
+        this.colone_2 = colone_2;
+    }*/
 
     /*
      * (non-Javadoc)
@@ -62,6 +74,6 @@ public class Example {
      */
     @Override
     public String toString() {
-        return this.getId() + " : " + this.getName();
+        return this.getcolone_1() + "  " + this.getcolone_2()+ "  " + this.getcolone_3();
     }
 }

@@ -20,7 +20,7 @@ public interface IModel {
      * @throws SQLException
      *             the SQL exception
      */
-    Example getExampleById(int id) throws SQLException;
+    Example getniveau_1Bycolone_1(int colone_1) throws SQLException;
 
     /**
      * Gets the example by name.
@@ -31,7 +31,18 @@ public interface IModel {
      * @throws SQLException
      *             the SQL exception
      */
-    Example getExampleByName(String name) throws SQLException;
+    Example getniveau_1Bycolone_2(String colone_2) throws SQLException;
+
+    /**
+     * Gets the example by name.
+     *
+     * @param name
+     *            the name
+     * @return the example by name
+     * @throws SQLException
+     *             the SQL exception
+     */
+    Example getniveau_1Bycolone_3(String colone_3) throws SQLException;
 
     /**
      * Gets the all examples.
@@ -40,5 +51,5 @@ public interface IModel {
      * @throws SQLException
      *             the SQL exception
      */
-    List<Example> getAllExamples() throws SQLException;
+    List<Example> getAllniveau_1() throws SQLException;
 }
