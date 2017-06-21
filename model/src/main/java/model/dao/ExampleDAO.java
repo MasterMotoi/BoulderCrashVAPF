@@ -122,7 +122,7 @@ public abstract class ExampleDAO extends AbstractDAO {
         if (callStatement.execute()) {
             final ResultSet result = callStatement.getResultSet();
             if (result.first()) {
-                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
+                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
             }
             result.close();
         }
@@ -138,7 +138,7 @@ public abstract class ExampleDAO extends AbstractDAO {
         if (callStatement.execute()) {
             final ResultSet result = callStatement.getResultSet();
             if (result.first()) {
-                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
+                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
             }
             result.close();
         }
@@ -153,7 +153,7 @@ public abstract class ExampleDAO extends AbstractDAO {
         if (callStatement.execute()) {
             final ResultSet result = callStatement.getResultSet();
             if (result.first()) {
-                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
+                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
             }
             result.close();
         }
@@ -168,7 +168,7 @@ public abstract class ExampleDAO extends AbstractDAO {
         if (callStatement.execute()) {
             final ResultSet result = callStatement.getResultSet();
             if (result.first()) {
-                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
+                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
             }
             result.close();
         }
@@ -183,7 +183,7 @@ public abstract class ExampleDAO extends AbstractDAO {
         if (callStatement.execute()) {
             final ResultSet result = callStatement.getResultSet();
             if (result.first()) {
-                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
+                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
             }
             result.close();
         }
@@ -198,7 +198,7 @@ public abstract class ExampleDAO extends AbstractDAO {
         if (callStatement.execute()) {
             final ResultSet result = callStatement.getResultSet();
             if (result.first()) {
-                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
+                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
             }
             result.close();
         }
@@ -213,7 +213,7 @@ public abstract class ExampleDAO extends AbstractDAO {
         if (callStatement.execute()) {
             final ResultSet result = callStatement.getResultSet();
             if (result.first()) {
-                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
+                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
             }
             result.close();
         }
@@ -228,7 +228,7 @@ public abstract class ExampleDAO extends AbstractDAO {
         if (callStatement.execute()) {
             final ResultSet result = callStatement.getResultSet();
             if (result.first()) {
-                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex));
+                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
             }
             result.close();
         }
@@ -273,7 +273,7 @@ public abstract class ExampleDAO extends AbstractDAO {
         if (callStatement.execute()) {
             final ResultSet result = callStatement.getResultSet();
             if (result.first()) {
-                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex)
+                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
             }
             result.close();
         }
@@ -288,7 +288,7 @@ public abstract class ExampleDAO extends AbstractDAO {
         if (callStatement.execute()) {
             final ResultSet result = callStatement.getResultSet();
             if (result.first()) {
-                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex)
+                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
             }
             result.close();
         }
@@ -303,7 +303,7 @@ public abstract class ExampleDAO extends AbstractDAO {
         if (callStatement.execute()) {
             final ResultSet result = callStatement.getResultSet();
             if (result.first()) {
-                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex)
+                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
             }
             result.close();
         }
@@ -318,7 +318,7 @@ public abstract class ExampleDAO extends AbstractDAO {
         if (callStatement.execute()) {
             final ResultSet result = callStatement.getResultSet();
             if (result.first()) {
-                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex)
+                example = new Example(result.getInt(colone_1ColumnIndex), result.getString(colone_2ColumnIndex), result.getString(colone_3ColumnIndex), result.getString(colone_4ColumnIndex), result.getString(colone_5ColumnIndex), result.getString(colone_6ColumnIndex), result.getString(colone_7ColumnIndex), result.getString(colone_8ColumnIndex), result.getString(colone_9ColumnIndex), result.getString(colone_10ColumnIndex), result.getString(colone_11ColumnIndex), result.getString(colone_12ColumnIndex), result.getString(colone_13ColumnIndex), result.getString(colone_14ColumnIndex), result.getString(colone_15ColumnIndex));
             }
             result.close();
         }
