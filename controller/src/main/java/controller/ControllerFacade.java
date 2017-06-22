@@ -47,12 +47,29 @@ private int i = 0;
         final StringBuilder message = new StringBuilder();
         // a.append(" bar);
         for (final Example example : examples) {
-            message.append(example);
-
-       
+            
+            
+            int tmp_cellule = Integer.parseInt(example.toString());
+            
+            switch(tmp_cellule)
+            {
+            case 0 :
+            	message.append("A");
+            	break;
+            case 1 :
+            	message.append("B");
+            	break;
+            	
+            default:
+            	message.append("O");
+            	break;
+            }
+            
+            
             i++;
             System.out.println(i);
-           // message.append('\n');
+            if(i % 15 == 0)
+            	message.append('\n');
 
         }
         this.getView().displayMessage(message.toString());

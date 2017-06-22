@@ -1,5 +1,6 @@
 package model;
 
+
 /**
  * <h1>The Class Example.</h1>
  *
@@ -49,10 +50,7 @@ public class Example {
     	
     	}
     
-    public void test (){
-     	if (toString() == "0") {System.out.println("LOL");}    	
 
-    }
     }
 
     
