@@ -1,11 +1,14 @@
 package controller;
 
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
+import javax.swing.SwingUtilities;
+
 import model.Example;
 import model.IModel;
-import view.IView;
+import view.*;
 
 /**
  * <h1>The Class ControllerFacade provides a facade of the Controller component.</h1>
@@ -20,7 +23,6 @@ public class ControllerFacade implements IController {
 
     /** The model. */
     private final IModel model;
-private int i = 0;
     /**
      * Instantiates a new controller facade.
      *
@@ -42,38 +44,24 @@ private int i = 0;
      *             the SQL exception
      */
      public void start() throws SQLException {
-    	 
-     final List<Example> examples = this.getModel().getAllniveau_1();
-        final StringBuilder message = new StringBuilder();
-        // a.append(" bar);
-        for (final Example example : examples) {
-            
-            
-            int tmp_cellule = Integer.parseInt(example.toString());
-            
-            switch(tmp_cellule)
-            {
-            case 0 :
-            	message.append("A");
-            	break;
-            case 1 :
-            	message.append("B");
-            	break;
-            	
-            default:
-            	message.append("O");
-            	break;
-            }
-            
-            
-            i++;
-            System.out.println(i);
-            if(i % 15 == 0)
-            	message.append('\n');
-
-        }
-        this.getView().displayMessage(message.toString());
-    }
+ 		System.out.println("Hello World");
+		
+ 		SwingUtilities.invokeLater(new Runnable() {
+ 		 public void run() {
+ 			 Frame fen;
+ 			try {
+ 				fen = new Frame();
+ 				fen.setVisible(true);
+ 			} catch (IOException e) {
+ 				// TODO Auto-generated catch block
+ 				e.printStackTrace();
+ 			}
+ 		 }
+ 		});
+ 		
+ 		System.out.println("Hello World");
+ 	}
+    
 
     /**
      * Gets the view.
