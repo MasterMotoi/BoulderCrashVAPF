@@ -20,7 +20,7 @@ public class ControllerFacade implements IController {
 
     /** The model. */
     private final IModel model;
-
+private int i = 0;
     /**
      * Instantiates a new controller facade.
      *
@@ -42,16 +42,18 @@ public class ControllerFacade implements IController {
      *             the SQL exception
      */
      public void start() throws SQLException {
-    /*    this.getView().displayMessage(this.getModel().getniveau_1Bycolone_1(1).toString());
-
-        this.getView().displayMessage(this.getModel().getniveau_1Bycolone_2("0").toString());
-*/
-        final List<Example> examples = this.getModel().getAllniveau_1();
+    	 
+     final List<Example> examples = this.getModel().getAllniveau_1();
         final StringBuilder message = new StringBuilder();
         // a.append(" bar);
         for (final Example example : examples) {
             message.append(example);
-            message.append('\n');
+
+       
+            i++;
+            System.out.println(i);
+           // message.append('\n');
+
         }
         this.getView().displayMessage(message.toString());
     }
