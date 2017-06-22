@@ -1,12 +1,7 @@
 package controller;
 
-import java.io.IOException;
 import java.sql.SQLException;
-import java.util.List;
-
 import javax.swing.SwingUtilities;
-
-import model.Example;
 import model.IModel;
 import view.*;
 
@@ -48,14 +43,9 @@ public class ControllerFacade implements IController {
 		
  		SwingUtilities.invokeLater(new Runnable() {
  		 public void run() {
- 			 Frame fen;
- 			try {
- 				fen = new Frame();
- 				fen.setVisible(true);
- 			} catch (IOException e) {
- 				// TODO Auto-generated catch block
- 				e.printStackTrace();
- 			}
+ 			 Fenetre fen;
+ 			fen = new Fenetre();
+			fen.setVisible(true);
  		 }
  		});
  		

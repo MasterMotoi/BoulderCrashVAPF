@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import javax.swing.JFrame;
 
-public class Frame extends JFrame{
+public class Fenetre extends JFrame{
 	private static final long serialVersionUID = 1L;
 	
 	public void view () throws IOException{
