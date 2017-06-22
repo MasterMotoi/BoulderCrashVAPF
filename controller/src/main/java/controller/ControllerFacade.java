@@ -20,7 +20,9 @@ public class ControllerFacade implements IController {
 
     /** The model. */
     private final IModel model;
-private int i = 0;
+    private int i = 0;
+    
+  
     /**
      * Instantiates a new controller facade.
      *
@@ -76,7 +78,7 @@ private int i = 0;
     }
 
     /**
-     * Gets the view.
+     * Gets the view. 
      *
      * @return the view
      */
