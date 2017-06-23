@@ -1,6 +1,6 @@
 package controller;
 
-import java.awt.Color;
+
 import java.io.IOException;
 
 import javax.swing.JFrame;
@@ -62,8 +62,10 @@ public class ControllerFacade extends JFrame implements IController  {
      public void start() throws SQLException, IOException {
     	
     
+
      final List<Example> examples = this.getModel().getAlllvl();
-        // a.append(" bar);
+
+
         tab_cellule.clear();
         
         for (final Example example : examples) {
@@ -74,7 +76,7 @@ public class ControllerFacade extends JFrame implements IController  {
 
 
         }
-//        this.getView().displayMessage(message.toString());
+
         pan.setListeCell(tab_cellule);
         this.fenetre();
     }

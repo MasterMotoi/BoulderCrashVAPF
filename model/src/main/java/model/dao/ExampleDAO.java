@@ -65,7 +65,7 @@ public abstract class ExampleDAO extends AbstractDAO {
             final ResultSet result = callStatement.getResultSet();
 
             for (boolean isResultLeft = result.first(); isResultLeft; isResultLeft = result.next()) {
-            	int i = 1;
+            		int i = 1;
             	for (i=1; i<=30; i++){
             		sqlAlllvlColomnIndex = i;
                 	examples.add(new Example(result.getString(sqlAlllvlColomnIndex)));
