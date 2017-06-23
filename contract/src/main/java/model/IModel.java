@@ -13,9 +13,9 @@ public interface IModel {
 
 
     /**
-     * Gets the all examples.
+     * Gets the all niveau_1.
      *
-     * @return the all examples
+     * @return the all niveau_1
      * @throws SQLException
      *             the SQL exception
      */
