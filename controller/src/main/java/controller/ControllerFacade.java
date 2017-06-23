@@ -61,7 +61,7 @@ public class ControllerFacade extends JFrame implements IController  {
      */
      public void start() throws SQLException, IOException {
     	
-    
+     
 
      final List<Example> examples = this.getModel().getAlllvl();
 
