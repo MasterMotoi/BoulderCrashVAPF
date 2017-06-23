@@ -192,6 +192,7 @@ public class ControllerFacade extends JFrame implements IController  {
      *
      * @return the model
      */
+    
     public IModel getModel() {
         return this.model;
     }
