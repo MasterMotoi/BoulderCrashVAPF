@@ -72,26 +72,7 @@ public class ControllerFacade extends JFrame implements IController  {
         	      
             tab_cellule.add(Integer.parseInt(example.toString()));
             
-//            for(int tmp_cellule : tab_cellule)
-//            {
-//            	switch(tmp_cellule)
-//                {
-//                case 0 :
-//                	message.append("A");
-//                	break;
-//                case 1 :
-//                	message.append("B");
-//                	break;
-//                	
-//                default:
-//                	message.append("O");
-//                	break;
-//                }
-//            }
-                    
-            
-            
-            
+        
 
 
         }
@@ -159,13 +140,13 @@ public class ControllerFacade extends JFrame implements IController  {
             }
             }
  		
- 		
+ 	
      }
      
      
      public void fenetre () throws IOException{
  		setTitle ("Crash Boulder");
- 		setSize(512, 536);
+ 		setSize(1000, 1000);
  		setLocationRelativeTo(null);
  		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
  		setResizable(true);
