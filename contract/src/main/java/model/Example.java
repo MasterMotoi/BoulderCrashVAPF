@@ -15,10 +15,8 @@ public class Example {
     /**
      * Instantiates a new example.
      *
-     * @param id
-     *            the id
-     * @param name
-     *            the name
+     * @param sqlAllniveau_1
+     *            the sqlAllniveau_1
      */
     public Example(final String sqlAllniveau_1){			
     	super();
@@ -28,9 +26,9 @@ public class Example {
     }
 
     /**
-     * Gets the id.
+     * Gets the sqlAllniveau_1.
      *
-     * @return the id
+     * @return the sqlAllniveau_1
      */
     public String getsqlAllniveau_1(){
     	return this.sqlAllniveau_1;
