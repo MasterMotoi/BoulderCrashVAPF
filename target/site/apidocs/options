@@ -1,0 +1,24 @@
+-classpath
+'C:/Users/Motoi/git/BoulderCrashVAPF/contract/target/classes;C:/Users/Motoi/git/BoulderCrashVAPF/controller/target/classes;C:/Users/Motoi/git/BoulderCrashVAPF/model/target/classes;C:/Users/Motoi/git/BoulderCrashVAPF/view/target/classes;C:/Users/Motoi/git/BoulderCrashVAPF/main/target/classes;C:/Users/Motoi/.m2/repository/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar'
+-encoding
+'Cp1252'
+-protected
+-sourcepath
+'C:/Users/Motoi/git/BoulderCrashVAPF/contract/src/main/java;C:/Users/Motoi/git/BoulderCrashVAPF/contract/target/generated-sources/annotations;C:/Users/Motoi/git/BoulderCrashVAPF/controller/src/main/java;C:/Users/Motoi/git/BoulderCrashVAPF/controller/target/generated-sources/annotations;C:/Users/Motoi/git/BoulderCrashVAPF/model/src/main/java;C:/Users/Motoi/git/BoulderCrashVAPF/model/target/generated-sources/annotations;C:/Users/Motoi/git/BoulderCrashVAPF/view/src/main/java;C:/Users/Motoi/git/BoulderCrashVAPF/view/target/generated-sources/annotations;C:/Users/Motoi/git/BoulderCrashVAPF/main/src/main/java;C:/Users/Motoi/git/BoulderCrashVAPF/main/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2017. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Motoi/git/BoulderCrashVAPF/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'boulderdash 0.0.1-SNAPSHOT API'
+-linkoffline
+'http://docs.oracle.com/javase/8/docs/api' 'C:/Users/Motoi/git/BoulderCrashVAPF/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'boulderdash 0.0.1-SNAPSHOT API'

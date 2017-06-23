@@ -1,21 +1,17 @@
 package controller;
 
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Image;
+import java.awt.Color;
 import java.io.IOException;
 
-import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import javax.swing.JPanel;
-
 import model.Example;
 import model.IModel;
 import view.IView;
+import view.Pane;
 
 
 /**
@@ -26,13 +22,16 @@ import view.IView;
  */
 public class ControllerFacade extends JFrame implements IController  {
 
-    /** The view. */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	/** The view. */
     private final IView  view;
-	JPanel pan = new JPanel();
+	Pane pan = new Pane();
 
     /** The model. */
     private final IModel model;
-    private int i = 0;
     private List<Integer> tab_cellule = new ArrayList<Integer>();
     
 
@@ -64,7 +63,6 @@ public class ControllerFacade extends JFrame implements IController  {
     	
     
      final List<Example> examples = this.getModel().getAllniveau_1();
-        final StringBuilder message = new StringBuilder();
         // a.append(" bar);
         tab_cellule.clear();
         
@@ -77,76 +75,19 @@ public class ControllerFacade extends JFrame implements IController  {
 
         }
 //        this.getView().displayMessage(message.toString());
+        pan.setListeCell(tab_cellule);
         this.fenetre();
     }
      
      
      // FONCTION DE GRAPHIQUE AVEC LE SWITCH
      
-     public void paint (Graphics g) {
- 		int x = 0;
- 		int y = 0;
- 		Graphics2D g2d = (Graphics2D) g;
- 		Image img = ImageIO.read(new File(path));
- 		ImageIcon icTerre = new ImageIcon("Image jeu/Mur/Terre.png");
- 		ImageIcon icMur = new ImageIcon("Image jeu/Mur/Mur.png");
- 		ImageIcon icBob = new ImageIcon("Image jeu/Personnage/Face/Face 1.png");
- 		ImageIcon icEnnemi = new ImageIcon("Image jeu/Monstres/Poulpe.png");
- 		ImageIcon icVide = new ImageIcon("Image jeu/Mur/Vide.png");
- 		ImageIcon icDiamand = new ImageIcon("Img/Diamand/Diamand.png");
- 		ImageIcon icPoulpe = new ImageIcon("Img/Monstres/Poulpe.png");
- 		ImageIcon icRocher = new ImageIcon("Img/Rocher/Rocher.png");
- 		ImageIcon icCs = new ImageIcon("Img/Monstres/Chauve-ouris.png");
- 		
-        for(int tmp_cellule : tab_cellule)
-        {
-        	switch(tmp_cellule)
-  		   {
-  		   case 0 :
-  		   		img=icMur.getImage();
-  			break;
-  		   	
-  		   case 1 :
-  			   img=icTerre.getImage();
-  		   	break;
-  		   	
-  		   case 2:
-  			   img=icDiamand.getImage();
-  		   	break;	
-  		   	
-  		   case 3:
-  			   img=icPoulpe.getImage();
-  		   	break;
-  		   	
-  		   case 4:
-  			   img=icRocher.getImage();
-  		   	break;
-  		   	
-  		   case 5:
-  			   img=icBob.getImage();
-  		   	break;
-  		   	
-  		   case 6:
-  			   img=icCs.getImage();
-  		   	break;
-  		   }
-        	
-        	g.drawImage(img, x, y, null);
 
-            x ++;
-            if(x % 15 == 0) {
-            y ++;
-            x = 0;
-            }
-            }
- 		
- 	
-     }
      
      
      public void fenetre () throws IOException{
  		setTitle ("Crash Boulder");
- 		setSize(1000, 1000);
+ 		setSize(256, 183);
  		setLocationRelativeTo(null);
  		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
  		setResizable(true);
@@ -173,7 +114,6 @@ public class ControllerFacade extends JFrame implements IController  {
      *
      * @return the model
      */
-    
     public IModel getModel() {
         return this.model;
     }
