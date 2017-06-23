@@ -74,7 +74,7 @@ public class Pane extends JPanel {
      	g2d.drawImage(img, x*16 , y*16 , null);
 
          x ++;
-         if(x % 15 == 0) {
+         if(x % 30 == 0) {
          	y ++;
          	x = 0;
          }

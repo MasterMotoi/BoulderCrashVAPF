@@ -62,7 +62,7 @@ public class ControllerFacade extends JFrame implements IController  {
      public void start() throws SQLException, IOException {
     	
     
-     final List<Example> examples = this.getModel().getAllniveau_1();
+     final List<Example> examples = this.getModel().getAlllvl();
         // a.append(" bar);
         tab_cellule.clear();
         
@@ -87,7 +87,7 @@ public class ControllerFacade extends JFrame implements IController  {
      
      public void fenetre () throws IOException{
  		setTitle ("Crash Boulder");
- 		setSize(256, 183);
+ 		setSize(1000, 1000);
  		setLocationRelativeTo(null);
  		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
  		setResizable(true);

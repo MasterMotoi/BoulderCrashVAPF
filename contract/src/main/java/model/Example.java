@@ -9,29 +9,29 @@ package model;
  */
 public class Example {
 
-  private final String sqlAllniveau_1;
+  private final String sqlAlllvl;
 
    
     /**
-     * Instantiates a new example.
+     * Instantiates a new lvl.
      *
-     * @param sqlAllniveau_1
-     *            the sqlAllniveau_1
+     * @param sqlAlllvl
+     *            the sqlAlllvl
      */
-    public Example(final String sqlAllniveau_1){			
+    public Example(final String sqlAlllvl){			
     	super();
         
-        this.sqlAllniveau_1 = sqlAllniveau_1;
+        this.sqlAlllvl = sqlAlllvl;
 
     }
 
     /**
-     * Gets the sqlAllniveau_1.
+     * Gets the sqlAlllvl.
      *
-     * @return the sqlAllniveau_1
+     * @return the sqlAlllvl
      */
-    public String getsqlAllniveau_1(){
-    	return this.sqlAllniveau_1;
+    public String getsqlAlllvl(){
+    	return this.sqlAlllvl;
     }
     
  
@@ -42,7 +42,7 @@ public class Example {
     
     public String toString() {
     	
-    		return this.getsqlAllniveau_1();   
+    		return this.getsqlAlllvl();   
     	
  
     	

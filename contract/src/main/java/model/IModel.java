@@ -19,7 +19,7 @@ public interface IModel {
      * @throws SQLException
      *             the SQL exception
      */
-    List<Example> getAllniveau_1() throws SQLException;
+    List<Example> getAlllvl() throws SQLException;
 
 }
 

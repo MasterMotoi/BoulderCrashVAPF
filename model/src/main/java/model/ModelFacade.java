@@ -25,8 +25,8 @@ public class ModelFacade implements IModel {
      * @see model.IModel#getAllExamples()
      */
     @Override
-    public List<Example> getAllniveau_1() throws SQLException {
-        return ExampleDAO.getAllniveau_1();
+    public List<Example> getAlllvl() throws SQLException {
+        return ExampleDAO.getAlllvl();
     }
 
     
