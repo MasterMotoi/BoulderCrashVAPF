@@ -9,14 +9,22 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 import java.sql.SQLException;
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JPanel;
 
 import model.Example;
+=======
+import javax.swing.SwingUtilities;
+>>>>>>> branch 'master' of https://github.com/MasterMotoi/BoulderCrashVAPF.git
 import model.IModel;
+<<<<<<< HEAD
 import view.IView;
 
+=======
+import view.*;
+>>>>>>> branch 'master' of https://github.com/MasterMotoi/BoulderCrashVAPF.git
 
 /**
  * <h1>The Class ControllerFacade provides a facade of the Controller component.</h1>
@@ -32,11 +40,14 @@ public class ControllerFacade extends JFrame implements IController  {
 
     /** The model. */
     private final IModel model;
+<<<<<<< HEAD
     private int i = 0;
     private List<Integer> tab_cellule = new ArrayList<Integer>();
     
 
     
+=======
+>>>>>>> branch 'master' of https://github.com/MasterMotoi/BoulderCrashVAPF.git
     /**
      * Instantiates a new controller facade.
      *
@@ -60,6 +71,7 @@ public class ControllerFacade extends JFrame implements IController  {
      *             the SQL exception
      * @throws IOException 
      */
+<<<<<<< HEAD
      public void start() throws SQLException, IOException {
     	
     
@@ -133,6 +145,22 @@ public class ControllerFacade extends JFrame implements IController  {
   		   }
         	
         	g.drawImage(img, x, y, null);
+=======
+     public void start() throws SQLException {
+ 		System.out.println("Hello World");
+		
+ 		SwingUtilities.invokeLater(new Runnable() {
+ 		 public void run() {
+ 			 Fenetre fen;
+ 			fen = new Fenetre();
+			fen.setVisible(true);
+ 		 }
+ 		});
+ 		
+ 		System.out.println("Hello World");
+ 	}
+    
+>>>>>>> branch 'master' of https://github.com/MasterMotoi/BoulderCrashVAPF.git
 
             x ++;
             if(x % 15 == 0) {
