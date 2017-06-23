@@ -89,7 +89,7 @@ public class ControllerFacade extends JFrame implements IController  {
      
      public void fenetre () throws IOException{
  		setTitle ("Crash Boulder");
- 		setSize(1000, 1000);
+ 		setSize(496, 520);
  		setLocationRelativeTo(null);
  		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
  		setResizable(true);

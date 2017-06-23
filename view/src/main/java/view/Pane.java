@@ -25,14 +25,14 @@ public class Pane extends JPanel {
 		int y = 0;
 		Graphics2D g2d = (Graphics2D) g;
 		Image img = null;
-		ImageIcon icTerre = new ImageIcon("C:/Users/Deswaeme Alexandra/git/BoulderCrashVAPF/BoulderCrashVAPF/BoulderCrashVAPF/Img/Mur/Terre.png");
-		ImageIcon icMur = new ImageIcon("C:/Users/Deswaeme Alexandra/git/BoulderCrashVAPF/BoulderCrashVAPF/BoulderCrashVAPF/Img/Mur/Mur.png");
-		ImageIcon icBob = new ImageIcon("C:/Users/Deswaeme Alexandra/git/BoulderCrashVAPF/BoulderCrashVAPF/BoulderCrashVAPF/Img/Personnage/Face/Face 1.png");
-		ImageIcon icDiamand = new ImageIcon("C:/Users/Deswaeme Alexandra/git/BoulderCrashVAPF/BoulderCrashVAPF/BoulderCrashVAPF/Img/Diamand/Diamand.png");
-		ImageIcon icPoulpe = new ImageIcon("C:/Users/Deswaeme Alexandra/git/BoulderCrashVAPF/BoulderCrashVAPF/BoulderCrashVAPF/Img/Monstres/Poulpe.png");
-		ImageIcon icRocher = new ImageIcon("C:/Users/Deswaeme Alexandra/git/BoulderCrashVAPF/BoulderCrashVAPF/BoulderCrashVAPF/Img/Rocher/Rocher.png");
-		ImageIcon icCs = new ImageIcon("C:/Users/Deswaeme Alexandra/git/BoulderCrashVAPF/BoulderCrashVAPF/BoulderCrashVAPF/Img/Monstres/Chauve-souris.png");
-		ImageIcon icVide = new ImageIcon("C:/Users/Deswaeme Alexandra/git/BoulderCrashVAPF/BoulderCrashVAPF/BoulderCrashVAPF/Img/Mur/Tunnel.png");
+		ImageIcon icTerre = new ImageIcon("C:/Users/Motoi/git/BoulderCrashVAPF/BoulderCrashVAPF/Img/Mur/Terre.png");
+		ImageIcon icMur = new ImageIcon("C:/Users/Motoi/git/BoulderCrashVAPF/BoulderCrashVAPF/Img/Mur/Mur.png");
+		ImageIcon icBob = new ImageIcon("C:/Users/Motoi/git/BoulderCrashVAPF/BoulderCrashVAPF/Img/Personnage/Face/Face 1.png");
+		ImageIcon icDiamand = new ImageIcon("C:/Users/Motoi/git/BoulderCrashVAPF/BoulderCrashVAPF/Img/Diamand/Diamand.png");
+		ImageIcon icPoulpe = new ImageIcon("C:/Users/Motoi/git/BoulderCrashVAPF/BoulderCrashVAPF/Img/Monstres/Poulpe.png");
+		ImageIcon icRocher = new ImageIcon("C:/Users/Motoi/git/BoulderCrashVAPF/BoulderCrashVAPF/Img/Rocher/Rocher.png");
+		ImageIcon icCs = new ImageIcon("C:/Users/Motoi/git/BoulderCrashVAPF/BoulderCrashVAPF/Img/Monstres/Chauve-souris.png");
+		ImageIcon icVide = new ImageIcon("C:/Users/Motoi/git/BoulderCrashVAPF/BoulderCrashVAPF/Img/Mur/Tunnel.png");
 		
      for(int tmp_cellule : listeCell)
      {

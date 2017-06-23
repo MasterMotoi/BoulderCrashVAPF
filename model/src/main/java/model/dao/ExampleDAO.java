@@ -22,7 +22,7 @@ public abstract class ExampleDAO extends AbstractDAO {
 	 */
 		public static String test(){
 			String order;
-			int choix = 5;
+			int choix = 1;
 		switch (choix){
 			case 1:
 				order = "{call findniveau_1()}";
@@ -44,7 +44,7 @@ public abstract class ExampleDAO extends AbstractDAO {
 				break;
 		}
 		return order;
-		}
+	}
 		
     /** The sql all lvl. */
 
