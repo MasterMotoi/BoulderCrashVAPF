@@ -58,8 +58,9 @@ public class ControllerFacade extends JFrame implements IController  {
      *
      * @throws SQLException
      *             the SQL exception
+     * @throws IOException 
      */
-     public void start() throws SQLException {
+     public void start() throws SQLException, IOException {
     	
     
      final List<Example> examples = this.getModel().getAllniveau_1();
@@ -95,6 +96,7 @@ public class ControllerFacade extends JFrame implements IController  {
 
         }
 //        this.getView().displayMessage(message.toString());
+        this.fenetre();
     }
      
      
