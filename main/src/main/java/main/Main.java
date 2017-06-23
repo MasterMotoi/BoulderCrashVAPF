@@ -22,12 +22,8 @@ public abstract class Main {
      *            the arguments
      * @throws IOException 
      */
-<<<<<<< HEAD
+
     public static void main(final String[] args) throws IOException {
-=======
-	
-    public static void main(final String[] args) {
->>>>>>> branch 'master' of https://github.com/MasterMotoi/BoulderCrashVAPF.git
 
         final ControllerFacade controller = new ControllerFacade(new ViewFacade(), new ModelFacade());
 
