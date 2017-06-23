@@ -87,6 +87,7 @@ public class ControllerFacade extends JFrame implements IController  {
  		int x = 0;
  		int y = 0;
  		Graphics2D g2d = (Graphics2D) g;
+ 		Image img = ImageIO.read(new File(path));
  		ImageIcon icTerre = new ImageIcon("Image jeu/Mur/Terre.png");
  		ImageIcon icMur = new ImageIcon("Image jeu/Mur/Mur.png");
  		ImageIcon icBob = new ImageIcon("Image jeu/Personnage/Face/Face 1.png");
@@ -96,7 +97,6 @@ public class ControllerFacade extends JFrame implements IController  {
  		ImageIcon icPoulpe = new ImageIcon("Img/Monstres/Poulpe.png");
  		ImageIcon icRocher = new ImageIcon("Img/Rocher/Rocher.png");
  		ImageIcon icCs = new ImageIcon("Img/Monstres/Chauve-ouris.png");
- 		Image img = null;
  		
         for(int tmp_cellule : tab_cellule)
         {
