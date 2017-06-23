@@ -2,10 +2,9 @@ package main;
 
 import java.io.IOException;
 import java.sql.SQLException;
-
 import controller.ControllerFacade;
 import model.ModelFacade;
-import view.ViewFacade;
+import view.*;
 
 /**
  * <h1>The Class Main.</h1>
@@ -13,6 +12,7 @@ import view.ViewFacade;
  * @author Jean-Aymeric DIET jadiet@cesi.fr
  * @version 1.0
  */
+
 public abstract class Main {
 
     /**
@@ -22,6 +22,7 @@ public abstract class Main {
      *            the arguments
      * @throws IOException 
      */
+
     public static void main(final String[] args) throws IOException {
 
         final ControllerFacade controller = new ControllerFacade(new ViewFacade(), new ModelFacade());
