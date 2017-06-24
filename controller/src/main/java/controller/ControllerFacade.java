@@ -4,14 +4,18 @@ package controller;
 import java.io.IOException;
 
 import javax.swing.JFrame;
-
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+
 import model.Example;
 import model.IModel;
 import view.IView;
 import view.Pane;
+
+
+
+
 
 
 /**
@@ -26,10 +30,12 @@ public class ControllerFacade extends JFrame implements IController  {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	/** The view. */
-    private final IView  view;
+	
 	Pane pan = new Pane();
 
+	/** The view. */
+    private final IView  view;
+	
     /** The model. */
     private final IModel model;
     private List<Integer> tab_cellule = new ArrayList<Integer>();
@@ -48,11 +54,11 @@ public class ControllerFacade extends JFrame implements IController  {
         super();
         this.view = view;
         this.model = model;
-        
+ 
       
     }
 
-    /**
+	/**
      * Start.
      *
      * @throws SQLException
@@ -61,7 +67,6 @@ public class ControllerFacade extends JFrame implements IController  {
      */
      public void start() throws SQLException, IOException {
     	
-     
 
      final List<Example> examples = this.getModel().getAlllvl();
 
@@ -79,10 +84,14 @@ public class ControllerFacade extends JFrame implements IController  {
 
         pan.setListeCell(tab_cellule);
         this.fenetre();
+        
+        
+    
     }
      
-     
-     // FONCTION DE GRAPHIQUE AVEC LE SWITCH
+    
+
+	// FONCTION DE GRAPHIQUE AVEC LE SWITCH
      
 
      
@@ -119,4 +128,6 @@ public class ControllerFacade extends JFrame implements IController  {
     public IModel getModel() {
         return this.model;
     }
+    
+
 }
