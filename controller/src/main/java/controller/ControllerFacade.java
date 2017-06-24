@@ -155,7 +155,7 @@ public class ControllerFacade extends JFrame implements IController  {
      
      
      public void fenetre () throws IOException{
-<<<<<<< HEAD
+
     	 JPanel p = new JPanel();
          JLabel label = new JLabel("Key Listener!");
          p.add(label);
@@ -164,10 +164,7 @@ public class ControllerFacade extends JFrame implements IController  {
     	 
     	setTitle ("Crash Boulder");
  		setSize(1000, 1000);
-=======
- 		setTitle ("Crash Boulder");
- 		setSize(496, 520);
->>>>>>> branch 'master' of https://github.com/MasterMotoi/BoulderCrashVAPF.git
+
  		setLocationRelativeTo(null);
  		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
  		setResizable(true);
