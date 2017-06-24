@@ -44,7 +44,7 @@ public abstract class ExampleDAO extends AbstractDAO {
 				break;
 		}
 		return order;
-		}
+	}
 		
     /** The sql all lvl. */
 
