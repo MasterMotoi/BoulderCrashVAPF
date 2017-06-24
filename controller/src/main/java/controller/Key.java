@@ -1,4 +1,4 @@
-package view;
+package controller;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -6,6 +6,10 @@ import java.awt.event.KeyListener;
 
 
 public class Key implements KeyListener {
+	
+	
+
+
 	public void keyTyped(KeyEvent e) {
 
         if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
@@ -58,9 +62,10 @@ public class Key implements KeyListener {
        
     }
 
-  public static void key(String[] args) {
+ public static void key(String[] args) {
         new Key();
     }
+  
   
 
   
