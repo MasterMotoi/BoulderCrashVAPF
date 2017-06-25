@@ -1,6 +1,5 @@
 package controller;
 
-import java.awt.Component;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
@@ -17,6 +16,10 @@ public class Key extends  JFrame implements KeyListener{
 	
 
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	JLabel label;
 	
 
