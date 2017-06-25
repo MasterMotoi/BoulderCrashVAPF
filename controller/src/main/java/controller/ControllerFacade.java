@@ -35,8 +35,6 @@ public class ControllerFacade extends JFrame implements IController  {
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	 Pane pan = new Pane();
-
 	/** The view. */
     private final IView  view;
 	
@@ -44,7 +42,7 @@ public class ControllerFacade extends JFrame implements IController  {
     private final IModel model;
     private List<Integer> tab_cellule = new ArrayList<Integer>();
  
-    final Key Key = new Key();
+    private final Key touche = new Key();
     
 
     
@@ -92,10 +90,14 @@ public class ControllerFacade extends JFrame implements IController  {
         }
 
 
-        pan.setListeCell(tab_cellule);
+        touche.setListeCell(tab_cellule);
        
+<<<<<<< HEAD
         this.fenetre();
        
+=======
+        touche.fen();
+>>>>>>> branch 'master' of https://github.com/MasterMotoi/BoulderCrashVAPF.git
 
        }
             
@@ -105,6 +107,7 @@ public class ControllerFacade extends JFrame implements IController  {
 
 	// FONCTION DE GRAPHIQUE AVEC LE SWITCH
     
+<<<<<<< HEAD
 	public void fenetre () throws IOException{
 	
     	 
@@ -120,6 +123,23 @@ public class ControllerFacade extends JFrame implements IController  {
         Key.test(null);	
     
 	}
+=======
+//	public void fenetre () throws IOException{
+//	
+//    	 
+//    	setTitle ("Crash Boulder");
+// 		setSize(1000, 1000);
+// 		
+// 		setLocationRelativeTo(null);
+// 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+// 		setResizable(true);
+// 		add(pan);
+// 		addKeyListener(touche);
+// 		setVisible(true);
+// 			
+//    
+//	}
+>>>>>>> branch 'master' of https://github.com/MasterMotoi/BoulderCrashVAPF.git
     
     /**
      * Gets the view. 
