@@ -1,6 +1,7 @@
 package controller;
 
 
+
 import java.awt.event.KeyEvent;
 import java.io.IOException;
 
@@ -44,7 +45,7 @@ public class ControllerFacade extends JFrame implements IController  {
     /** The model. */
     private final IModel model;
     private List<Integer> tab_cellule = new ArrayList<Integer>();
-   // private Key key = new Key();
+ 
    
     
 
@@ -67,17 +68,19 @@ public class ControllerFacade extends JFrame implements IController  {
 
 	/**
      * Start.
+	 * @param KeyEvent 
      *
      * @throws SQLException
      *             the SQL exception
      * @throws IOException 
      */
-     public void start() throws SQLException, IOException {
+     public void start(KeyEvent KeyEvent) throws SQLException, IOException {
     	
 
      final List<Example> examples = this.getModel().getAlllvl();
-    // final Key test = new Key();
-     
+    
+   	 final Key Key = new Key();
+        
         tab_cellule.clear();
 
         
@@ -93,56 +96,9 @@ public class ControllerFacade extends JFrame implements IController  {
 
         pan.setListeCell(tab_cellule);
         this.fenetre();
+        Key.key(null);
         
-//        public static void keyTyped(KeyEvent e) {
-//
-//            if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
-//                System.out.println("Right key typed");
-//            }
-//            if (e.getKeyCode() == KeyEvent.VK_LEFT) {
-//                System.out.println("Left key typed");
-//            }
-//            if (e.getKeyCode() == KeyEvent.VK_UP) {
-//                System.out.println("Top key typed");
-//            }
-//            if (e.getKeyCode() == KeyEvent.VK_DOWN) {
-//                System.out.println("Down key typed");
-//            }
-//            
-//        }
-//
-//       @Override
-//        public static void keyPressed(KeyEvent e) {
-//
-//            if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
-//                System.out.println("Right key pressed");
-//            }
-//            if (e.getKeyCode() == KeyEvent.VK_LEFT) {
-//                System.out.println("Left key pressed");
-//            }
-//            if (e.getKeyCode() == KeyEvent.VK_UP) {
-//                System.out.println("Up key pressed");
-//            }
-//            if (e.getKeyCode() == KeyEvent.VK_DOWN) {
-//                System.out.println("Down key pressed");
-//            }
-//      
-//        }
-//
-//        @Override
-//       public static void keyReleased(KeyEvent e) {
-//            if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
-//                System.out.println("Right key Released");
-//            }
-//            if (e.getKeyCode() == KeyEvent.VK_LEFT) {
-//                System.out.println("Left key Released");
-//            }
-//            if (e.getKeyCode() == KeyEvent.VK_UP) {
-//                System.out.println("Up key Released");
-//            }
-//            if (e.getKeyCode() == KeyEvent.VK_DOWN) {
-//                System.out.println("Down key Released");
-//            }
+
 //       }
             
     }
@@ -169,6 +125,7 @@ public class ControllerFacade extends JFrame implements IController  {
  		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
  		setResizable(true);
  		add(pan);
+ 		//add(Key.Key);
  		setVisible(true);
      }
      

@@ -1,4 +1,4 @@
-package model.character;
+/*package model.character;
 
 import java.awt.Graphics2D;
 
@@ -27,3 +27,5 @@ public class Entity {
 		this.sprite = sprite;
 	}
 }
+
+*/

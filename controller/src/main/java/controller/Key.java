@@ -62,7 +62,7 @@ public class Key implements KeyListener {
        
     }
 
- public static void key(String[] args) {
+ public void key(String[] args) {
         new Key();
     }
   
