@@ -32,7 +32,7 @@ public class Key extends JFrame implements KeyListener {
 //	        setVisible(true);
 	    	final ControllerFacade  fenetre = new ControllerFacade(null, null);
 	    	
-	    	add.fenetre();
+	    	//add.fenetre();
 	    }
 
 
