@@ -1,13 +1,39 @@
 package controller;
 
+import java.awt.Component;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+import junit.framework.TestCase;
+import model.IModel;
+import view.IView;
+
+import javax.swing.JFrame;
 
 
-public class Key implements KeyListener {
+
+public class Key extends JFrame implements KeyListener {
 	
-	
+
+
+	//JLabel label;
+
+	    public void test() {
+//	     //   super(s);
+//	        JPanel p = new JPanel();
+//	        label = new JLabel("Key Listener!");
+//	        p.add(label);
+//	        add(p);
+//	        addKeyListener(this);
+//	        setSize(1000, 1000);
+//	        setVisible(true);
+	    	final ControllerFacade  fenetre = new ControllerFacade(null, null);
+	    	
+	    	add.fenetre();
+	    }
 
 
 	public void keyTyped(KeyEvent e) {
@@ -61,13 +87,10 @@ public class Key implements KeyListener {
         }
        
     }
-
- public void key(String[] args) {
-        new Key();
+ public static void test(String[] args) {
+        new test();
     }
   
-  
-
   
 }
 
