@@ -5,8 +5,7 @@ package controller;
 import java.io.IOException;
 
 import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
+
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -17,8 +16,6 @@ import model.IModel;
 import view.IView;
 import view.Pane;
 import controller.Key;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 
 
 
@@ -38,7 +35,7 @@ public class ControllerFacade extends JFrame implements IController  {
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	Pane pan = new Pane();
+	 Pane pan = new Pane();
 
 	/** The view. */
     private final IView  view;
@@ -96,101 +93,35 @@ public class ControllerFacade extends JFrame implements IController  {
 
 
         pan.setListeCell(tab_cellule);
-        Key.test();
+       
         this.fenetre();
         
-        
+        Key.test(null);
 
-//       }
+       }
             
-    }
+    
      
     
 
 	// FONCTION DE GRAPHIQUE AVEC LE SWITCH
     
 	public void fenetre () throws IOException{
-
-    	 JPanel p = new JPanel();
-         JLabel label = new JLabel("Key Listener!");
-         p.add(label);
-         add(p);
-        
+	
     	 
     	setTitle ("Crash Boulder");
  		setSize(1000, 1000);
  		
- 		//setKeyListener(this);
  		setLocationRelativeTo(null);
  		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
  		setResizable(true);
  		add(pan);
- 		
- 		//set(Key.test());
+ 		addKeyListener(Key);
  		setVisible(true);
- 		
- 		 //JPanel a = new JPanel();
-	     //   label = new JLabel("Key Listener!");
-	    //    p.add(label);
-	      //  add(a);
-	     //   addKeyListener(this);
-	     //   setSize(200, 100);
-	     //   setVisible(true);
- 		
+ 			
     
 	}
-//	public void keyTyped(KeyEvent e) {
-//
-//        if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
-//            System.out.println("Right key typed");
-//        }
-//        if (e.getKeyCode() == KeyEvent.VK_LEFT) {
-//            System.out.println("Left key typed");
-//        }
-//        if (e.getKeyCode() == KeyEvent.VK_UP) {
-//            System.out.println("Top key typed");
-//        }
-//        if (e.getKeyCode() == KeyEvent.VK_DOWN) {
-//            System.out.println("Down key typed");
-//        }
-//        
-//    }
-//
-// //  @Override
-//    public void keyPressed(KeyEvent e) {
-//
-//        if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
-//            System.out.println("Right key pressed");
-//        }
-//        if (e.getKeyCode() == KeyEvent.VK_LEFT) {
-//            System.out.println("Left key pressed");
-//        }
-//        if (e.getKeyCode() == KeyEvent.VK_UP) {
-//            System.out.println("Up key pressed");
-//        }
-//        if (e.getKeyCode() == KeyEvent.VK_DOWN) {
-//            System.out.println("Down key pressed");
-//        }
-//
-//    }
-//
-// //   @Override
-//   public void keyReleased(KeyEvent e) {
-//        if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
-//            System.out.println("Right key Released");
-//        }
-//        if (e.getKeyCode() == KeyEvent.VK_LEFT) {
-//            System.out.println("Left key Released");
-//        }
-//        if (e.getKeyCode() == KeyEvent.VK_UP) {
-//            System.out.println("Up key Released");
-//        }
-//        if (e.getKeyCode() == KeyEvent.VK_DOWN) {
-//            System.out.println("Down key Released");
-//        }
-//       
-//    }
-//     
+    
     /**
      * Gets the view. 
      *
