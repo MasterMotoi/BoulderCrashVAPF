@@ -2,11 +2,12 @@ package controller;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.util.List;
 
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-
+import view.Pane;
 
 import javax.swing.JFrame;
 
@@ -21,17 +22,17 @@ public class Key extends  JFrame implements KeyListener{
 	 */
 	private static final long serialVersionUID = 1L;
 	JLabel label;
+	private Pane panne = new Pane ();
 	
 
-	    public  Key() {
-
-	        JPanel p = new JPanel();
-	        label = new JLabel("Key Listener!");
-	        p.add(label);
-
-	        addKeyListener(this);
-	        setSize(1000, 1000);
-	        setVisible(true);		
+	    public void fen() {
+	    	setTitle ("Crash Boulder");
+	 		setSize(1000, 1000);
+	 		setLocationRelativeTo(null);
+	 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	 		setResizable(true);
+	        add(panne);
+	 		setVisible(true);
 	    }
 
 
@@ -92,6 +93,9 @@ public class Key extends  JFrame implements KeyListener{
         
     }
 
+	public void setListeCell (List<Integer> liste) {
+		panne.setListeCell(liste);
+	}
   
 }
 
