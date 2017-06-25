@@ -95,8 +95,7 @@ public class ControllerFacade extends JFrame implements IController  {
         pan.setListeCell(tab_cellule);
        
         this.fenetre();
-        
-        Key.test(null);
+       
 
        }
             
@@ -116,9 +115,9 @@ public class ControllerFacade extends JFrame implements IController  {
  		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
  		setResizable(true);
  		add(pan);
- 		addKeyListener(Key);
  		setVisible(true);
- 			
+ 		 
+        Key.test(null);	
     
 	}
     
