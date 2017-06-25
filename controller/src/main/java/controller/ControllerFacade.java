@@ -2,7 +2,6 @@ package controller;
 
 
 
-import java.awt.event.KeyEvent;
 import java.io.IOException;
 
 import javax.swing.JFrame;
@@ -74,7 +73,7 @@ public class ControllerFacade extends JFrame implements IController  {
      *             the SQL exception
      * @throws IOException 
      */
-     public void start(KeyEvent KeyEvent) throws SQLException, IOException {
+     public void start() throws SQLException, IOException {
     	
 
      final List<Example> examples = this.getModel().getAlllvl();

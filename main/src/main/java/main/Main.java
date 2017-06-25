@@ -1,10 +1,7 @@
 package main;
 
-
-
 import java.io.IOException;
 import java.sql.SQLException;
-
 
 import controller.ControllerFacade;
 import model.ModelFacade;
@@ -33,11 +30,11 @@ public abstract class Main {
     			
         final ControllerFacade controller = new ControllerFacade(new ViewFacade(), new ModelFacade());
 
+        
       
         try {
           
-            controller.start(null);
-            
+            controller.start();
         } catch (final SQLException exception) {
             exception.printStackTrace();
         }
